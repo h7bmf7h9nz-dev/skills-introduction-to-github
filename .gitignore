@@ -1,0 +1,31 @@
+# 依赖
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 环境变量与密钥（绝对不能提交）
+.env
+.env.*
+*.local
+*.pem
+*.key
+id_rsa
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 打包产物
+dist/
+build/
+out/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
